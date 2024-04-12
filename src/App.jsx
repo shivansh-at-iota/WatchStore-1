@@ -19,6 +19,7 @@ import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
 import Brands from "./Carousel";
 import Collections from "./Collections";
+import Categories from "./Categories";
 
 
 function App() {
@@ -157,6 +158,7 @@ function App() {
 
           <Brands/>
           <Collections/>
+          <Categories/>
     </>
   )
 }

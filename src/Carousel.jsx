@@ -63,8 +63,8 @@ export default function Brands() {
     return(
         <>
         <Carousel responsive={responsive}>
-        <div style={{height:'300px', backgroundColor: 'gray', width: '100vw'}} >
-            <h2 style={{marginLeft: '50rem', fontWeight: 'lighter'}}>Featured Brands</h2>
+        <div style={{height:'400px', backgroundColor: 'gray', width: '100vw'}} >
+            <h2 style={{marginLeft: '50vw', fontWeight: 'lighter', paddingTop: '50px'}}>Featured Brands</h2>
             <div style={{display:'flex', justifyContent: 'space-around'}}>
               
               {brands.map((d, index) => (
