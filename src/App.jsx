@@ -8,6 +8,7 @@ import BrandsLogo from "./BrandsLogo";
 import FeaturedBrands from "./FeaturedBrands";
 import WatchIndex from "./WatchIndex";
 import Promises from "./Promises";
+import Story from "./Story";
 
 function App() {
 
@@ -15,14 +16,15 @@ function App() {
     <>
       <Box>
         
-        <Box><Navbar/></Box>
-        <Box><Banner/></Box>
-        <Box><BrandsLogo/></Box>
-        <Box><FeaturedBrands/></Box>
-        <Box><Collections /></Box>
-        <Box><Categories /></Box>
+        <Navbar/>
+        <Banner/>
+        <BrandsLogo/>
+        <FeaturedBrands/>
+        <Collections />
+        <Categories />
         <WatchIndex/>
         <Promises/>
+        <Story/>
         
       </Box>
     </>
