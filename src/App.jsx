@@ -9,6 +9,8 @@ import FeaturedBrands from "./FeaturedBrands";
 import WatchIndex from "./WatchIndex";
 import Promises from "./Promises";
 import Story from "./Story";
+import Instagram from "./Instagram";
+import Editorial from "./Editorial";
 
 function App() {
 
@@ -25,6 +27,8 @@ function App() {
         <WatchIndex/>
         <Promises/>
         <Story/>
+        <Instagram/>
+        <Editorial/>
         
       </Box>
     </>
