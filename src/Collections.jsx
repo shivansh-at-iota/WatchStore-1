@@ -1,17 +1,17 @@
 import React from 'react'
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
+import { Stack } from '@mui/material';
 
 function Collections() {
     return (
-        <div>
+        <Box sx={{width:"100%"}}>
 
-            <div style={{ display: 'flex', width: '100vw' }}>
+            <Stack direction="row" spacing={2} justifyContent="space-between">
                 <Box
                     height={600}
-                    width={800}
+                    flex={2}
                     my={4}
-                    marginRight={40}
                     display="flex flex-column"
                     alignItems="center"
                     alignContent="center"
@@ -24,7 +24,7 @@ function Collections() {
                 </Box>
                 <Box
                     height={600}
-                    width={800}
+                    flex={0.5}
                     my={4}
                     display="flex flex-column"
                     alignItems="left"
@@ -32,14 +32,14 @@ function Collections() {
                     p={2}
 
                 >
-                    <img src='./Images/luxury.png' style={{ width: '400px', height: '400px' }}></img>
+                    <img src='./Images/luxury.png' style={{ height: '400px' }}></img>
                     <h3>LUXURY LEGACY</h3>
                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
                     <h5>DISCOVER MORE</h5>
                 </Box>
                 <Box
                     height={600}
-                    width={800}
+                    flex={0.5}
                     my={4}
                     display="flex flex-column"
                     alignItems="left"
@@ -47,14 +47,14 @@ function Collections() {
                     p={2}
 
                 >
-                    <img src='./Images/NW1.png' style={{ width: '400px', height: '400px' }}></img>
+                    <img src='./Images/NW1.png' style={{ height: '400px' }}></img>
                     <h3>ICONIC MASTERPIECES</h3>
                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
                     <h5>DISCOVER MORE</h5>
                 </Box>
                 <Box
                     height={600}
-                    width={800}
+                    flex={0.5}
                     my={4}
                     display="flex flex-column"
                     alignItems="left"
@@ -62,15 +62,15 @@ function Collections() {
                     p={2}
 
                 >
-                    <img src='./Images/Chrono.png' style={{ width: '400px', height: '400px' }}></img>
+                    <img src='./Images/Chrono.png' style={{  height: '400px' }}></img>
                     <h3>CHRONO CLASSICS</h3>
                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
                     <h5>DISCOVER MORE</h5>
                 </Box>
 
 
-            </div>
-        </div>
+            </Stack>
+        </Box>
     )
 }
 
