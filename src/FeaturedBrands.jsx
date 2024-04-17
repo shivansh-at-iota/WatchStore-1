@@ -57,7 +57,6 @@ function FeaturedBrands() {
   ]
 
   const settings = {
-    dots: true,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -66,12 +65,12 @@ function FeaturedBrands() {
   };
   return (
 
-    <Box sx={{ bgcolor: "lightgray", margin: "25px", paddingTop: "25px" }}>
+    <Box sx={{ bgcolor: "lightgray", my: "25px", paddingTop: "25px", paddingBottom: "50px" , mx: "25px"}}>
 
-      <Typography variant="h5" sx={{ marginLeft: "50%" }}>Featured Brands</Typography>
+      <Typography variant="h5" sx={{ marginLeft: "50%", marginBottom: "50px" }}>Featured Brands</Typography>
       <Box className="slider-container">
         <Slider {...settings}>
-
+          
           <Box sx={{ display: "flex" }}>
             <Box component="img" src="./Images/omega.png" sx={{ height: "40px", width: "25px" }} />
             <Typography variant="subtitle1">Omega</Typography>
