@@ -37,19 +37,19 @@ function FeaturedBrands() {
   };
   return (
 
-    <Box sx={{bgcolor: "lightgray", margin: "25px", paddingTop: "25px"}}>
-  
-  <Typography variant="h5" sx={{marginLeft: "50%"}}>Featured Brands</Typography>
-    <Box className="slider-container">
-      <Slider {...settings}>
-        
-      <Box component="img" src="./Images/NW1.png" sx={{height: "280px", width: "20px"}}/>
-      <Box component="img" src="./Images/NW1.png" sx={{height: "280px", width: "20px"}}/>
-      <Box component="img" src="./Images/NW1.png" sx={{height: "280px", width: "20px"}}/>
-      <Box component="img" src="./Images/NW1.png" sx={{height: "280px", width: "20px"}}/>
-      <Box component="img" src="./Images/NW1.png" sx={{height: "280px", width: "20px"}}/>
-      </Slider>
-    </Box></Box>
+    <Box sx={{ bgcolor: "lightgray", margin: "25px", paddingTop: "25px" }}>
+
+      <Typography variant="h5" sx={{ marginLeft: "50%" }}>Featured Brands</Typography>
+      <Box className="slider-container">
+        <Slider {...settings}>
+
+          <Box component="img" src="./Images/NW1.png" sx={{ height: "280px", width: "20px" }} />
+          <Box component="img" src="./Images/NW1.png" sx={{ height: "280px", width: "20px" }} />
+          <Box component="img" src="./Images/NW1.png" sx={{ height: "280px", width: "20px" }} />
+          <Box component="img" src="./Images/NW1.png" sx={{ height: "280px", width: "20px" }} />
+          <Box component="img" src="./Images/NW1.png" sx={{ height: "280px", width: "20px" }} />
+        </Slider>
+      </Box></Box>
   );
 }
 

@@ -21,9 +21,9 @@ function Categories() {
           }}
         >
           <ButtonGroup variant="text" aria-label="Basic button group">
-            <Button variant="contained" href="/" sx={{ color: "gray" }}>New Watches</Button>
-            <Button variant="contained" href="/pre" sx={{ color: "gray" }}>Pre Owned</Button>
-            <Button variant="contained" href="/under" sx={{ color: "gray" }}>Under Retail</Button>
+            <Button href="/" sx={{ color: "gray" }}>New Watches</Button>
+            <Button href="/pre" sx={{ color: "gray" }}>Pre Owned</Button>
+            <Button href="/under" sx={{ color: "gray" }}>Under Retail</Button>
           </ButtonGroup>
         </Box>
       </div>

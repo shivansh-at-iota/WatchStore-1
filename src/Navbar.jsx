@@ -27,7 +27,7 @@ function Navbar() {
           alt="Your logo."
           src="./Images/header_logo_iwc.png"
         />
-        <Box flex={2} sx={{justifyContent: "space-evenly", alignContent: "center", alignItems: "center", marginLeft: "20%", display: {xs: "none", sm: "block"}}}>
+        <Box flex={2} sx={{ justifyContent: "space-evenly", alignContent: "center", alignItems: "center", marginLeft: "20%", display: { xs: "none", sm: "block" } }}>
           <Button href="#">Buy</Button>
           <Button href="#">Sell</Button>
           <Button href="#">Index</Button>
@@ -35,10 +35,10 @@ function Navbar() {
           <Button href="#">Blog</Button>
         </Box>
         <Box flex={0.5}>
-          <SearchIcon/>
-          <FavoriteBorderIcon/>
-          <PersonOutlineRoundedIcon/>
-          <NotificationsOutlinedIcon/>
+          <SearchIcon />
+          <FavoriteBorderIcon />
+          <PersonOutlineRoundedIcon />
+          <NotificationsOutlinedIcon />
         </Box>
       </StyledToolbar>
     </AppBar>

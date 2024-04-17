@@ -5,7 +5,7 @@ import { Stack } from '@mui/material';
 
 function Collections() {
     return (
-        <Box sx={{width:"100%"}}>
+        <Box sx={{ width: "100%" }}>
 
             <Stack direction="row" spacing={2} justifyContent="space-between">
                 <Box
@@ -62,7 +62,7 @@ function Collections() {
                     p={2}
 
                 >
-                    <img src='./Images/Chrono.png' style={{  height: '400px' }}></img>
+                    <img src='./Images/Chrono.png' style={{ height: '400px' }}></img>
                     <h3>CHRONO CLASSICS</h3>
                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered.</p>
                     <h5>DISCOVER MORE</h5>

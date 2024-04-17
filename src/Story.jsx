@@ -3,7 +3,7 @@ import React from 'react'
 
 function Story() {
     return (
-        <Box sx={{ p: 8 , bgcolor: "black"}}>
+        <Box sx={{ p: 8, bgcolor: "black" }}>
             <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", color: "white" }}>
                 <Typography variant='h5'>
                     To put premium watches within the
@@ -17,8 +17,8 @@ function Story() {
                 <Box component="img" src='./Images/aboutWatch.png' sx={{ p: 8 }} />
                 <Box sx={{ p: 8 }}>
                     <Box sx={{ display: "flex", flexDirection: "column", alignItems: "flex-start", color: "white" }}>
-                        <Box sx={{py: 4}}>
-                            <Typography variant='h4' sx={{fontWeight: 200}}>
+                        <Box sx={{ py: 4 }}>
+                            <Typography variant='h4' sx={{ fontWeight: 200 }}>
                                 Story
                             </Typography>
                             <Typography variant='h4'>

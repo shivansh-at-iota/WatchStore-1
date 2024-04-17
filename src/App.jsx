@@ -13,30 +13,30 @@ import Instagram from "./Instagram";
 import Editorial from "./Editorial";
 import BackToTop from "./BackToTop";
 import Footer from "./Footer";
-import {Outlet} from 'react-router-dom'
+import { Outlet } from 'react-router-dom'
 
 function App() {
 
   return (
     <>
       <Box>
-        
-        <Navbar/>
-        <Banner/>
-        <BrandsLogo/>
-        <FeaturedBrands/>
+
+        <Navbar />
+        <Banner />
+        <BrandsLogo />
+        <FeaturedBrands />
         <Collections />
         <Categories />
 
-        <Outlet/>
+        <Outlet />
 
-        <WatchIndex/>
-        <Promises/>
-        <Story/>
-        <Instagram/>
-        <Editorial/>
-        <BackToTop/>
-        <Footer/>
+        <WatchIndex />
+        <Promises />
+        <Story />
+        <Instagram />
+        <Editorial />
+        <BackToTop />
+        <Footer />
       </Box>
     </>
   );
