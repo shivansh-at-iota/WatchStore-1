@@ -9,7 +9,7 @@ function Categories() {
 
   return (
     <>
-      <div>
+      <Box>
         <Box
           sx={{
             display: 'flex',
@@ -26,7 +26,7 @@ function Categories() {
             <Button href="/under" sx={{ color: "gray" }}>Under Retail</Button>
           </ButtonGroup>
         </Box>
-      </div>
+      </Box>
     </>
   )
 }
