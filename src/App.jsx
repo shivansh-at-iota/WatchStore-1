@@ -1,7 +1,7 @@
 import React from "react";
 import Box from "@mui/material/Box";
 import Collections from "./Collections";
-// import Categories from "./Categories";
+import Categories from "./Categories";
 import Banner from "./Banner";
 import Navbar from "./Navbar";
 import BrandsLogo from "./BrandsLogo";
@@ -13,6 +13,7 @@ import Instagram from "./Instagram";
 import Editorial from "./Editorial";
 import BackToTop from "./BackToTop";
 import Footer from "./Footer";
+import {Outlet} from 'react-router-dom'
 
 function App() {
 
@@ -25,7 +26,10 @@ function App() {
         <BrandsLogo/>
         <FeaturedBrands/>
         <Collections />
-        {/* <Categories /> */}
+        <Categories />
+
+        <Outlet/>
+
         <WatchIndex/>
         <Promises/>
         <Story/>
@@ -33,7 +37,6 @@ function App() {
         <Editorial/>
         <BackToTop/>
         <Footer/>
-        
       </Box>
     </>
   );

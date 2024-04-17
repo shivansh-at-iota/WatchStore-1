@@ -42,9 +42,15 @@ function Footer() {
                     <Typography sx={{ paddingTop: 4, marginLeft: 4 }}>Privacy Policy</Typography>
                 </Box>
                 <Box sx={{ justifyContent: "end", alignContent: "end", alignItems: "end", marginLeft: "60%" }}>
-                    <Button href="https://www.instagram.com/" endIcon={<InstagramIcon />} sx={{ color: "gray" }}></Button>
-                    <Button href="https://web.whatsapp.com/" endIcon={<WhatsAppIcon />} sx={{ color: "gray" }}></Button>
-                    <Button href="https://www.youtube.com/" endIcon={<YouTubeIcon />} sx={{ color: "gray" }}></Button>
+                    <a href="https://www.instagram.com/" target='_blank'>
+                    <Button endIcon={<InstagramIcon />} sx={{ color: "gray" }}></Button>
+                    </a>
+                    <a href="https://web.whatsapp.com/" target='_blank'>
+                    <Button endIcon={<WhatsAppIcon />} sx={{ color: "gray" }}></Button>
+                    </a>
+                    <a href="https://www.youtube.com/" target='_blank'>
+                    <Button endIcon={<YouTubeIcon />} sx={{ color: "gray" }}></Button>
+                    </a>
                 </Box>
             </Stack>
         </Box>
