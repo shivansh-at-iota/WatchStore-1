@@ -2,6 +2,7 @@ import React from "react";
 import Button from "@mui/material/Button";
 import ButtonGroup from "@mui/material/ButtonGroup";
 import Box from "@mui/material/Box";
+import { NavLink } from "react-router-dom";
 
 
 function Categories() {
@@ -21,9 +22,15 @@ function Categories() {
           }}
         >
           <ButtonGroup variant="text" aria-label="Basic button group">
-            <Button href="/" sx={{ color: "gray" }}>New Watches</Button>
-            <Button href="/pre" sx={{ color: "gray" }}>Pre Owned</Button>
-            <Button href="/under" sx={{ color: "gray" }}>Under Retail</Button>
+            <NavLink to="/" >
+              <Button sx={{ color: "gray" }}>New Watches</Button>
+            </NavLink>
+            <NavLink to="/pre">
+              <Button sx={{ color: "gray" }}>Pre Owned</Button>
+            </NavLink>
+            <NavLink to="/under">
+              <Button sx={{ color: "gray" }} >Under Retail</Button>
+            </NavLink>
           </ButtonGroup>
         </Box>
       </Box>
