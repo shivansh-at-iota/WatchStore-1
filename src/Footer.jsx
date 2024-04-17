@@ -43,13 +43,13 @@ function Footer() {
                 </Box>
                 <Box sx={{ justifyContent: "end", alignContent: "end", alignItems: "end", marginLeft: "60%" }}>
                     <a href="https://www.instagram.com/" target='_blank'>
-                    <Button endIcon={<InstagramIcon />} sx={{ color: "gray" }}></Button>
+                        <Button endIcon={<InstagramIcon />} sx={{ color: "gray" }}></Button>
                     </a>
                     <a href="https://web.whatsapp.com/" target='_blank'>
-                    <Button endIcon={<WhatsAppIcon />} sx={{ color: "gray" }}></Button>
+                        <Button endIcon={<WhatsAppIcon />} sx={{ color: "gray" }}></Button>
                     </a>
                     <a href="https://www.youtube.com/" target='_blank'>
-                    <Button endIcon={<YouTubeIcon />} sx={{ color: "gray" }}></Button>
+                        <Button endIcon={<YouTubeIcon />} sx={{ color: "gray" }}></Button>
                     </a>
                 </Box>
             </Stack>
