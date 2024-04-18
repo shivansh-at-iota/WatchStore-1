@@ -37,7 +37,7 @@ function Footer() {
                 </Box>
             </Stack>
             <Divider variant="middle" component="li" sx={{ bgcolor: "white", height: "0.25px", marginTop: 4 }} />
-            <Stack direction="row" gap={4} sx={{ color: "white" }}>
+            <Stack direction="row" gap={4} sx={{ color: "white", display: "flex", flexDirection: Mobile ? 'row' : 'column'}}>
                 <Box sx={{ display: "flex", color: "gray" }}>
                     <Typography sx={{ paddingTop: 4, marginLeft: 8 }}>Terms & Conditions</Typography>
                     <Typography sx={{ paddingTop: 4, marginLeft: 4 }}>Privacy Policy</Typography>
