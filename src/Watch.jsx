@@ -14,7 +14,7 @@ function Watch() {
                 </Box>
 
                 <Box flex={1.5}>
-                    <img src='./Images/aboutWatch.png' style={{ width: '100%', height: '400px' }}></img>
+                    <img src='./Images/blue.png' style={{ width: '100%', height: '400px' }}></img>
                 </Box>
             </Stack>
         </Box>

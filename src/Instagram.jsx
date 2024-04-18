@@ -13,7 +13,7 @@ function Instagram() {
                     VIEW ALL
                 </Button>
             </Stack>
-            <Stack direction="row" sx={{ paddingBottom: 2, overflow: "hidden"}}>
+            <Stack direction="row" sx={{ paddingBottom: 2, overflow: "hidden", width: "100%"}}>
                 <Box component="img" src='./Images/insta1.png' width="100%" />
                 <Box component="img" src='./Images/insta2.png' width="100%" />
                 <Box component="img" src='./Images/insta3.png' width="100%" />
