@@ -1,4 +1,4 @@
-import { Box, Card, CardActionArea, CardContent, CardMedia, Typography } from '@mui/material'
+import { Box, Card, CardActionArea, CardContent, CardMedia, Typography, useMediaQuery } from '@mui/material'
 import React from 'react'
 
 function Under() {
@@ -33,9 +33,10 @@ function Under() {
             price: "from $200.50"
         },
     ]
+    const Mobile = useMediaQuery('(min-width:800px)');
 
     return (
-        <Box sx={{ display: "flex", flexDirection: 'row', justifyContent: 'space-evenly', my: 4 }}>
+        <Box sx={{ display: "flex", flexDirection: Mobile ? 'row' : 'column', alignItems: Mobile? 'normal':'center', justifyContent: 'space-evenly', my: 4 }}>
             {underRetail.map((item, index) => (
                 <Box style={{ display: 'flex ' }} key={index}>
                     <Card sx={{ maxWidth: 345 }}>

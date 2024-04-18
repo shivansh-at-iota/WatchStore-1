@@ -1,4 +1,4 @@
-import { Box, Card, CardActionArea, CardContent, CardMedia, Typography } from '@mui/material'
+import { Box, Card, CardActionArea, CardContent, CardMedia, Typography, useMediaQuery } from '@mui/material'
 import React from 'react'
 
 function New() {
@@ -36,8 +36,10 @@ function New() {
 
     ]
 
+    const Mobile = useMediaQuery('(min-width:800px)');
+
     return (
-        <Box sx={{ display: "flex", flexDirection: 'row', justifyContent: 'space-evenly', my: 4 }}>
+        <Box sx={{ display: "flex", flexDirection: Mobile ? 'row' : 'column', justifyContent: 'space-evenly', my: 4 ,alignItems: Mobile? 'normal':'center'}}>
             {newWatches.map((item, index) => (
                 <Box style={{ display: 'flex ' }} key={index}>
                     <Card sx={{ maxWidth: 345 }}>

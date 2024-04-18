@@ -1,13 +1,14 @@
 import React from 'react'
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import { Stack } from '@mui/material';
+import { Stack, useMediaQuery } from '@mui/material';
 
 function Collections() {
+    const Mobile = useMediaQuery('(min-width:800px)');
     return (
         <Box sx={{ width: "100%" }}>
 
-            <Stack direction="row" spacing={2} justifyContent="space-between" flexWrap="wrap">
+            <Stack direction="row" spacing={2} justifyContent="space-between" flexWrap="wrap" sx={{display: "flex", flexDirection: Mobile ? 'row' : 'column'}}>
                 <Box
                     height={600}
                     flex={2}

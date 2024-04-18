@@ -6,7 +6,6 @@ import Banner from "./Banner";
 import Navbar from "./Navbar";
 import BrandsLogo from "./BrandsLogo";
 import FeaturedBrands from "./FeaturedBrands";
-import WatchIndex from "./WatchIndex";
 import Promises from "./Promises";
 import Story from "./Story";
 import Instagram from "./Instagram";
