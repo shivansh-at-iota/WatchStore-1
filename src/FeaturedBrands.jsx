@@ -28,17 +28,17 @@ function SamplePrevArrow(props) {
 
 function FeaturedBrands() {
 
-  
+
   const settings = {
 
     infinite: true,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 4,
-    
+
     initialSlide: 0,
     nextArrow: <SampleNextArrow />,
-  prevArrow: <SamplePrevArrow />,
+    prevArrow: <SamplePrevArrow />,
     responsive: [
       {
         breakpoint: 1024,
@@ -46,7 +46,7 @@ function FeaturedBrands() {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          
+
         }
       },
       {
@@ -75,44 +75,44 @@ function FeaturedBrands() {
         <Slider {...settings}>
 
           <Box sx={{ display: "flex" }}>
-            <Box component="img" src="./Images/omega.png" sx={{ height: "40px", width: "25px" }} />
+            <Box component="img" src="./Images/omega.png" sx={{ height: "60px", width: "35px" }} />
             <Typography variant="subtitle1">Omega</Typography>
           </Box>
           <Box sx={{ display: "flex" }}>
-            <Box component="img" src="./Images/patek.png" sx={{ height: "40px", width: "25px" }} />
+            <Box component="img" src="./Images/patek.png" sx={{ height: "60px", width: "35px" }} />
             <Typography variant="subtitle1">Patek</Typography>
           </Box>
           <Box sx={{ display: "flex" }}>
-            <Box component="img" src="./Images/vacheron.png" sx={{ height: "40px", width: "25px" }} />
+            <Box component="img" src="./Images/vacheron.png" sx={{ height: "60px", width: "35px" }} />
             <Typography variant="subtitle1">Vacheron</Typography>
           </Box>
           <Box sx={{ display: "flex" }}>
-            <Box component="img" src="./Images/cartier.png" sx={{ height: "40px", width: "25px" }} />
+            <Box component="img" src="./Images/cartier.png" sx={{ height: "60px", width: "35px" }} />
             <Typography variant="subtitle1">Cartier</Typography>
           </Box>
           <Box sx={{ display: "flex" }}>
-            <Box component="img" src="./Images/patek.png" sx={{ height: "40px", width: "25px" }} />
+            <Box component="img" src="./Images/patek.png" sx={{ height: "60px", width: "35px" }} />
             <Typography variant="subtitle1">Patek</Typography>
           </Box>
 
           <Box sx={{ display: "flex" }}>
-            <Box component="img" src="./Images/omega.png" sx={{ height: "40px", width: "25px" }} />
+            <Box component="img" src="./Images/omega.png" sx={{ height: "60px", width: "35px" }} />
             <Typography variant="subtitle1">Omega</Typography>
           </Box>
           <Box sx={{ display: "flex" }}>
-            <Box component="img" src="./Images/patek.png" sx={{ height: "40px", width: "25px" }} />
+            <Box component="img" src="./Images/patek.png" sx={{ height: "60px", width: "35px" }} />
             <Typography variant="subtitle1">Patek</Typography>
           </Box>
           <Box sx={{ display: "flex" }}>
-            <Box component="img" src="./Images/vacheron.png" sx={{ height: "40px", width: "25px" }} />
+            <Box component="img" src="./Images/vacheron.png" sx={{ height: "60px", width: "35px" }} />
             <Typography variant="subtitle1">Vacheron</Typography>
           </Box>
           <Box sx={{ display: "flex" }}>
-            <Box component="img" src="./Images/cartier.png" sx={{ height: "40px", width: "25px" }} />
+            <Box component="img" src="./Images/cartier.png" sx={{ height: "60px", width: "35px" }} />
             <Typography variant="subtitle1">Cartier</Typography>
           </Box>
           <Box sx={{ display: "flex" }}>
-            <Box component="img" src="./Images/patek.png" sx={{ height: "40px", width: "25px" }} />
+            <Box component="img" src="./Images/patek.png" sx={{ height: "60px", width: "35px" }} />
             <Typography variant="subtitle1">Patek</Typography>
           </Box>
 
