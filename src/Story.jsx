@@ -1,7 +1,8 @@
-import { Box, Button, Stack, Typography } from '@mui/material'
+import { Box, Button, Stack, Typography, useMediaQuery } from '@mui/material'
 import React from 'react'
 
 function Story() {
+    const Mobile = useMediaQuery('(min-width:1200px)');
     return (
         <Box sx={{ p: 8, bgcolor: "black" }}>
             <Box sx={{ display: "flex", alignItems: "center", flexDirection: "column", color: "white" }}>
@@ -13,7 +14,7 @@ function Story() {
                 </Typography>
             </Box>
 
-            <Stack direction="row">
+            <Stack direction="row" sx={{display: "flex", flexDirection: Mobile ? 'row' : 'column'}}>
                 <Box component="img" src='./Images/aboutWatch.png' sx={{ p: 8 }} />
                 <Box sx={{ p: 8 }}>
                     <Box sx={{ display: "flex", flexDirection: "column", alignItems: "flex-start", color: "white" }}>

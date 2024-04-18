@@ -13,12 +13,12 @@ function Instagram() {
                     VIEW ALL
                 </Button>
             </Stack>
-            <Stack direction="row" sx={{ paddingBottom: 2, overflow: "hidden" }}>
-                <Box component="img" src='./Images/insta1.png' />
-                <Box component="img" src='./Images/insta2.png' />
-                <Box component="img" src='./Images/insta3.png' />
-                <Box component="img" src='./Images/insta4.png' />
-                <Box component="img" src='./Images/insta5.png' />
+            <Stack direction="row" sx={{ paddingBottom: 2, overflow: "hidden"}}>
+                <Box component="img" src='./Images/insta1.png' width="100%" />
+                <Box component="img" src='./Images/insta2.png' width="100%" />
+                <Box component="img" src='./Images/insta3.png' width="100%" />
+                <Box component="img" src='./Images/insta4.png' width="100%" />
+                <Box component="img" src='./Images/insta5.png' width="100%" />
             </Stack>
         </Box>
     )

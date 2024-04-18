@@ -14,6 +14,7 @@ import Editorial from "./Editorial";
 import BackToTop from "./BackToTop";
 import Footer from "./Footer";
 import { Outlet } from 'react-router-dom'
+import Watch from "./Watch";
 
 function App() {
 
@@ -30,13 +31,14 @@ function App() {
 
         <Outlet />
 
-        <WatchIndex />
+        <Watch/>
         <Promises />
         <Story />
         <Instagram />
         <Editorial />
         <BackToTop />
         <Footer />
+
       </Box>
     </>
   );

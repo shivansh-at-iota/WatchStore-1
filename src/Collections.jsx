@@ -7,7 +7,7 @@ function Collections() {
     return (
         <Box sx={{ width: "100%" }}>
 
-            <Stack direction="row" spacing={2} justifyContent="space-between">
+            <Stack direction="row" spacing={2} justifyContent="space-between" flexWrap="wrap">
                 <Box
                     height={600}
                     flex={2}

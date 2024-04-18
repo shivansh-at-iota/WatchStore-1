@@ -2,13 +2,16 @@ import React from 'react'
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import { Stack, Typography } from '@mui/material';
+import { Stack, Typography, useMediaQuery } from '@mui/material';
 import GppGoodOutlinedIcon from '@mui/icons-material/GppGoodOutlined';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import LocalShippingOutlinedIcon from '@mui/icons-material/LocalShippingOutlined';
 import VolunteerActivismOutlinedIcon from '@mui/icons-material/VolunteerActivismOutlined';
 
 function Promises() {
+
+    const Mobile = useMediaQuery('(min-width:800px)');
+
     return (
         <>
 
@@ -16,7 +19,7 @@ function Promises() {
                 <Typography variant='h4' px={8} paddingTop={4}>
                     Our Promises
                 </Typography>
-                <Stack direction='row' justifyContent="space-between" padding={8} gap={4}>
+                <Stack direction='row' justifyContent="space-between" padding={8} gap={4} sx={{display: "flex", flexDirection: Mobile ? 'row' : 'column'}}>
                     <Box>
                         <GppGoodOutlinedIcon />
                         <Typography variant='h6'>
