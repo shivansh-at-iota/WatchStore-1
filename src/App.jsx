@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-      <Box>
+      <Box sx={{maxWidth: "100%vw", overflow: "hidden"}}>
 
         <Navbar />
         <Banner />
