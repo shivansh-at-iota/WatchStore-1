@@ -41,17 +41,17 @@ function Navbar() {
           src="./Images/header_logo_iwc.png"
         />
         <Box flex={2} sx={{ justifyContent: "space-evenly", alignContent: "center", alignItems: "center", marginLeft: "20%", display: { sm: "none", md: "block" } }}>
-          <Button href="#">Buy</Button>
-          <Button href="#">Sell</Button>
-          <Button href="#">Index</Button>
-          <Button href="#">About Us</Button>
-          <Button href="#">Blog</Button>
+          <Button href="#" sx={{color: "white"}}>Buy</Button>
+          <Button href="#" sx={{color: "white"}}>Sell</Button>
+          <Button href="#" sx={{color: "white"}}>Index</Button>
+          <Button href="#" sx={{color: "white"}}>About Us</Button>
+          <Button href="#" sx={{color: "white"}}>Blog</Button>
         </Box>
-        <Box flex={0.5} sx={{ display: { sm: "none", md: "block" } }}>
-          <SearchIcon />
-          <FavoriteBorderIcon />
-          <PersonOutlineRoundedIcon />
-          <NotificationsOutlinedIcon />
+        <Box flex={0.5} sx={{ display: { sm: "none", md: "none", xs:"none", lg: "block" } }}>
+          <SearchIcon sx={{mx: "6px"}}/>
+          <FavoriteBorderIcon sx={{mx: "6px"}}/>
+          <PersonOutlineRoundedIcon sx={{mx: "6px"}}/>
+          <NotificationsOutlinedIcon sx={{mx: "6px"}}/>
         </Box>
         <div >
       <Button
@@ -60,7 +60,7 @@ function Navbar() {
         aria-haspopup="true"
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
-        sx={{display: {sm: "block", md: "none"}}}
+        sx={{display: {sm: "block", md: "none"}, color:"white"}}
         endIcon={<MenuIcon/>}
       />
   

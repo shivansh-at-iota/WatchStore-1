@@ -17,11 +17,11 @@ function BrandsLogo() {
   return (
     <Box className="slider-container">
       <Slider {...settings}>
-        <Box component="img" src="./Images/lokamt.png" alt="LOKAMT" width={16} height={36}/>
-        <Box component="img" src="./Images/financialexpress.png" alt="financialexpress" width={16} height={36}/>
-        <Box component="img" src="./Images/abp.png" alt="abp" width={16} height={36}/>
-        <Box component="img" src="./Images/silicon.png" alt="silicon" width={16} height={36}/>
-        <Box component="img" src="./Images/rewired.png" alt="rewired" width={16} height={36}/>
+        <Box component="img" src="./Images/lokamt.png" alt="LOKAMT"  sx={{maxWidth: "300px", maxHeight: "25px"}}/>
+        <Box component="img" src="./Images/financialexpress.png" alt="financialexpress"  sx={{maxWidth: "300px", maxHeight: "25px"}}/>
+        <Box component="img" src="./Images/abp.png" alt="abp" sx={{maxWidth: "300px", maxHeight: "25px"}}/>
+        <Box component="img" src="./Images/silicon.png" alt="silicon"  sx={{maxWidth: "300px", maxHeight: "25px"}}/>
+        <Box component="img" src="./Images/rewired.png" alt="rewired"  sx={{maxWidth: "300px", maxHeight: "25px"}}/>
       </Slider>
     </Box>
   );

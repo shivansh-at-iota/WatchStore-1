@@ -29,7 +29,7 @@ function Story() {
                         <Typography variant='subtitle1'>
                             There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
                         </Typography>
-                        <Button variant='contained' sx={{ marginTop: "100px", bgcolor: "white", color: "black" }}>
+                        <Button variant='contained' sx={{ marginTop: "100px", bgcolor: "white", color: "black", px: 6 }}>
                             DISCOVER MORE
                         </Button>
                     </Box>

@@ -8,7 +8,7 @@ function Footer() {
     const Mobile = useMediaQuery('(min-width:800px)');
     return (
 
-        <Box sx={{ backgroundImage: "url(./Images/Chakra.png)", width: "100%", height: "100%", backgroundRepeat: "no-repeat", backgroundColor: "black", backgroundPosition: "right" }}>
+        <Box sx={{ backgroundImage: "url(./Images/Chakra.png)", width: "100%", height: "100%", backgroundRepeat: "no-repeat", backgroundColor: "black", backgroundPosition: "right" , py: 6}}>
 
             <Stack direction="row" gap={4}  sx={{display: "flex", flexDirection: Mobile ? 'row' : 'column', alignItems: Mobile? 'normal':'center', justifyContent: "space-around"}}>
                 <Box component="img" src='./Images/header_logo_iwc.png' sx={{ py: 8 }} width="200px" height="50px" />
@@ -37,12 +37,12 @@ function Footer() {
                 </Box>
             </Stack>
             <Divider variant="middle" component="li" sx={{ bgcolor: "white", height: "0.25px", marginTop: 4 }} />
-            <Stack direction="row" gap={4} sx={{ color: "white", display: "flex", flexDirection: Mobile ? 'row' : 'column'}}>
+            <Stack direction="row" gap={4} sx={{ color: "white", display: "flex", flexDirection: Mobile ? 'row' : 'column', justifyContent: "space-between"}}>
                 <Box sx={{ display: "flex", color: "gray" }}>
                     <Typography sx={{ paddingTop: 4, marginLeft: 8 }}>Terms & Conditions</Typography>
                     <Typography sx={{ paddingTop: 4, marginLeft: 4 }}>Privacy Policy</Typography>
                 </Box>
-                <Box sx={{ justifyContent: "end", alignContent: "end", alignItems: "end", marginLeft: "60%" }}>
+                <Box sx={{ justifyContent: "end", alignContent: "end", alignItems: "end" }}>
                     <a href="https://www.instagram.com/" target='_blank'>
                         <Button endIcon={<InstagramIcon />} sx={{ color: "gray" }}></Button>
                     </a>
